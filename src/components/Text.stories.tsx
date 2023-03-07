@@ -7,6 +7,7 @@ export default {
     component: Text,
     argTypes:{
         color:{control:'color'},
+        backgroundColor:{control:'color'}
     },
 } as Meta;
 
