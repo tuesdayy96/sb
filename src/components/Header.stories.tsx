@@ -6,7 +6,7 @@ import { Meta, Story } from "@storybook/react";
 export default {
     title: "Components/Header",
     component: Header
-}
+} as Meta
 
 const Template : Story<HeaderProps> = (args)=><Header{...args}/>
 

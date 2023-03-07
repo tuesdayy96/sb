@@ -5,7 +5,7 @@ export interface TextProps {
   text?:string;
   color?:string;
   size?:"small" | "medium" | "large";
-  backgroundColor:string;
+  backgroundColor?:string;
 }
 
 // 텍스트입니다.

@@ -3,9 +3,9 @@ import './Nav.css'
 import Text, {TextProps} from "./Text";
 
 export interface NavProps {
-    textProps:TextProps,
-    textProps2:TextProps,
-    textProps3:TextProps
+    textProps?:TextProps,
+    textProps2?:TextProps,
+    textProps3?:TextProps
 }
 
 function Nav({textProps, textProps2, textProps3}:NavProps){
