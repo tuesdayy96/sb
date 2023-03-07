@@ -1,0 +1,17 @@
+ul,li,ol{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.Nav{
+    display: flex;
+}
+
+.Nav_list{
+    margin: 0 10px;
+}
