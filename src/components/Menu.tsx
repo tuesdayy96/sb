@@ -5,7 +5,7 @@ export interface MenuProps {
 
 function Menu(){
     return (
-        <ul className="nav_bottom_sub">
+        <ul className="gnb-bottom-sub">
             <li>
                 <a href="#!">
                     menu1

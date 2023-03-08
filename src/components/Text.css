@@ -1,9 +1,13 @@
+body{
+    font-size: 16px;
+}
+
 .text-small{
-    font-size: 0.5rem;
+    font-size: 14px;
 }
 
 .text-medium{
-    font-size: 1rem;
+    font-size: 20px;
 }
 
 .text-large{

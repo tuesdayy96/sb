@@ -14,7 +14,10 @@ export default {
 const Template : Story<TextProps> = (args)=><Text{...args}/>
 
 export const standard = Template.bind({});
-standard.args = ({text: "Design!", color: "black", size:"medium"})
+standard.args = ({text: "Design!", color: "black", size:"medium", backgroundColor:"none"})
 
 export const bigSize = Template.bind({});
-bigSize.args = ({text:"bigSize!", color:"#00ff00", size:"large"})
+bigSize.args = ({text:"bigSize!", color:"#00ff00", size:"large", backgroundColor:"none"})
+
+export const smallSize = Template.bind({});
+smallSize.args = ({text:"smallSize!", color:"blue", size:"small",backgroundColor:"none"})

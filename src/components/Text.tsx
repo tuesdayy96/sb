@@ -9,8 +9,8 @@ export interface TextProps {
 }
 
 // 텍스트입니다.
-const Text=({text, color, size}: TextProps)=>{
-  return <span className={`text-${size}`} style={{color:color}}>{text}</span>
+const Text=({text, color, size, backgroundColor}: TextProps)=>{
+  return <span className={`text-${size}`} style={{color:color, backgroundColor:backgroundColor}}>{text}</span>
 }
 
 export default Text;
@@ -19,5 +19,5 @@ Text.defaultProps = {
  color: "black",
  font:"16px",
  size:"medium",
- backgroundColor:"none"
+ backgroundColor:"default"
 }
